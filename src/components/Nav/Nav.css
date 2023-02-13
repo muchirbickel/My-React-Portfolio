@@ -1,0 +1,46 @@
+.bi {
+    margin-right: 16px;
+    cursor      : pointer;
+    user-select : none;
+    height      : 100px;
+    font-size   : 20px;
+}
+
+.bi-list {
+    margin-right: 0px;
+}
+
+.btn-primary {
+    margin-left : 5px;
+    margin-right: 10px;
+}
+
+.Sidebar.collapsed {
+    width: 55px;
+
+}
+
+.Sidebar {
+    transition : 0.5s ease-in-out;
+    font-family: "Lato", sans-serif;
+    overflow-x : hidden;
+    transition : 0.5s;
+    width      : 100;
+
+}
+
+
+.Sidebar a {
+    transition: 0.3s;
+}
+
+.Sidebar.collapsed .sidebar-icon {
+    margin-right: 0;
+}
+
+.Sidebar.collapsed .nav-text {
+    display: none;
+
+    transition: 0.5s;
+
+}

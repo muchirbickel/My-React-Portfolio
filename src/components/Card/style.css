@@ -1,0 +1,34 @@
+#pCard {
+    color: black;
+    /* float: left; */
+    margin-top: 30px;
+    /* display: block; */
+    border-width: 0 4px 8px 12px #afb0bd;
+    background-color: #afb0bd;
+}
+
+h5 {
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+
+#pCard:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 40px 10px #60616e;
+    transition: 0.3s ease-in-out;
+  }
+
+.bi-arrows-angle-expand {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+}
+
+@media(min-width: 769px) {
+    
+    #pCard {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}

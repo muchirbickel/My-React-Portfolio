@@ -1,0 +1,19 @@
+.home-container,
+.contact-container {
+    padding-top: 10%;
+    margin-left: 10%;
+}
+
+#home-div {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("https://i.pinimg.com/originals/3d/08/e0/3d08e03cb40252526fee2036a67f07f1.gif");
+    padding-bottom: 20%;
+    color         : white;
+    text-shadow: 2px 0 black, 0 2px black, 2px 0 black, 0 2px black;
+}
+
+#home-img {
+    margin-bottom: 2%;
+    border-radius: 50%;
+}
+

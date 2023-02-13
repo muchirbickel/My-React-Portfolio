@@ -1,0 +1,30 @@
+#portofolio {
+    background-color: #131417;
+    /* position: absolute; */
+}
+
+#pCard {
+    margin-left: auto;
+    padding-top: 2%;
+}
+
+@media (max-width:415px) {
+    #pCard{
+        /* margin-right: auto; */
+        margin-left: 19%;
+    }
+}
+
+@media (max-width:360px) {
+    #pCard{
+        /* margin-right: auto; */
+        margin-left: 15.5%;
+    }
+}
+
+@media (min-width:512px) {
+    #pCard{
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
